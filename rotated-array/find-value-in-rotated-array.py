@@ -57,3 +57,6 @@ def main():
     array = map(int,raw_input().split())
     target = int(raw_input())
     Solution.search(array,target)
+
+if __name__ == '__main__':
+    main()
